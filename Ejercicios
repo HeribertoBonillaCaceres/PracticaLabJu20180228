@@ -1,0 +1,77 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Proyecto00001
+{
+    class Program
+    {
+        /*public int ValorA, ValorB;
+          private int ValorC;*/
+        static void Main(string[] args)
+        {
+           /* Program tec = new Program();
+            Console.WriteLine(tec.Nombre()+tec.Apellido()+tec.edad()+tec.estatura());
+            Console.ReadKey();
+        }
+
+        string Nombre()
+        {
+            return "Lorenzo ";
+        }
+
+        string Apellido() 
+        {
+            return "Hernandez ";
+        }
+
+        int edad()
+        {
+            return 30;
+        }
+
+        double estatura()
+        {
+            return 1.7;
+        }
+
+
+        public int SetValorA(int Dato)
+        {
+            ValorA = Dato;
+            return ValorA;
+        }
+        public void SetValorA() { }*/
+                    
+            Program tec = new Program();
+            Console.WriteLine("El Zoo tiene de la familia de las Aves a: "+tec.Aves());
+              Console.WriteLine("El Zoo tiene de la familia de las Acuaticos a: "+tec.Acuaticos());
+              Console.WriteLine("El Zoo tiene de la familia de las Reptiles a: "+tec.Reptiles());
+              Console.WriteLine("El Zoo tiene de la familia de las Mamiferos a: "+tec.Mamiferos());
+            Console.ReadKey();
+        }
+
+        string Aves()
+        {
+            return "Gallinas, Zopilotes, Aguilas, Gansos, Bùhos, Gavilanes, Pelìcanos, Pavos, Jilgueros, Halcones ";
+        }
+
+        string Acuaticos() 
+        {
+            return "Tiburòn, Ballena, Piraña, Delfines, Orcas, Anguilas, Meros, Mantarrayas, Pulpos, ";
+        }
+
+        string Reptiles()
+        {
+            return "Tortuga, Caimàn, Culebra, Lagartija, Garrobos, Iguanas, Cocodrilo, Salamandra, etc....";
+        }
+
+        string Mamiferos()
+        {
+            return "Orcas, Focas, Leones, Tigres, Panteras, Perros, Gatos, Caballos, Vacas, Burros";
+        }
+    
+    } 
+}
